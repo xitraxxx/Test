@@ -22,7 +22,7 @@
             position: relative;
         }
 
-        header img {
+        header img.logo {
             width: 100px;
             position: absolute;
             top: 20px;
@@ -94,7 +94,7 @@
         }
 
         @media (max-width: 600px) {
-            header img {
+            header img.logo {
                 position: static;
                 display: block;
                 margin: 0 auto 20px auto;
@@ -118,7 +118,7 @@
 
     <!-- Header Section -->
     <header>
-        <img src="IMG_4255.png" alt="Logo Taxis Select">
+        <img src="IMG_4255.png" alt="Logo Taxis Select" class="logo">
         <h1>Taxis Select</h1>
         <p>Service de transport premium 24h/24 - 7j/7</p>
     </header>
@@ -142,17 +142,17 @@
             <h2>Carte de visite numérique</h2>
             <p>Ajoutez nos coordonnées à votre répertoire ou téléchargez notre carte de visite professionnelle.</p>
 
-            <!-- Image de la carte -->
+            <!-- Image de la carte depuis GitHub raw -->
             <img src="https://raw.githubusercontent.com/xitraxxx/Test/refs/heads/main/IMG_4271.jpeg" 
                  alt="Carte de visite Taxis Select" 
                  style="max-width: 100%; height: auto; border-radius: 10px; margin: 20px 0;">
 
             <!-- Boutons de téléchargement -->
-            <a href="Abdelhamid Barboucha .vcf"
-               download="Abdelhamid Barboucha .vcf" 
+            <a href="taxis-select.vcf" 
+               download="taxis-select.vcf" 
                class="cta-button">Ajouter le contact</a>
 
-            <a href="IMG_4271.JPG" 
+            <a href="https://raw.githubusercontent.com/xitraxxx/Test/refs/heads/main/IMG_4271.jpeg" 
                download="carte-de-visite.jpeg" 
                class="cta-button">Télécharger la carte de visite</a>
         </section>
