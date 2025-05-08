@@ -1,7 +1,0 @@
-BEGIN:VCARD
-VERSION:3.0
-FN:Abdelhamid Barboucha
-TEL:0676676000
-EMAIL:taxispros@gmail.com
-ADR:123 Rue de la Mobilité;75000 Paris;Île-de-France;;;
-END:VCARD
